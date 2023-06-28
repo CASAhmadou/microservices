@@ -1,0 +1,7 @@
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/AgeEvent.java
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/Event.java
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/dto/PersonneAge.java
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/AgeStatus.java
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/dto/PersonneDto.java
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/PersonneStatus.java
+/home/cas/Documents/PROJETS/microservices/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/PersonneEvent.java
