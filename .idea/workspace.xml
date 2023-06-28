@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4357864e-25a9-4492-9f44-88e48efda3c6" name="Default Changelist" comment="" />
+    <list default="true" id="4357864e-25a9-4492-9f44-88e48efda3c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/SecondServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/entity/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/mapper/PersonneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/repository/PersonneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/service/PersonneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +43,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2RZXuwvj6sVuxghDLgYksAY7lLY" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -90,10 +103,22 @@
       <workItem from="1687458808719" duration="9425000" />
       <workItem from="1687827297343" duration="6227000" />
       <workItem from="1687963217550" duration="294000" />
+      <workItem from="1687963720537" duration="1692000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
