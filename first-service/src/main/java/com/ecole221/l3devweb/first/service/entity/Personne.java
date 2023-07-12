@@ -1,5 +1,7 @@
 package com.ecole221.l3devweb.first.service.entity;
 
+import com.ecole221.l3dewweb.common.service.dto.PersonneDto;
+import com.ecole221.l3dewweb.common.service.events.AgeStatus;
 import com.ecole221.l3dewweb.common.service.events.PersonneStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,5 +33,7 @@ public class Personne {
     private Date dateNaissance;
 
     private PersonneStatus personneStatus;
+
+    private AgeStatus ageStatus;
 
 }

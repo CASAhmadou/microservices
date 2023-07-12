@@ -19,4 +19,5 @@ public class PersonneDto {
     private String nomComplet;
     private String dateNaissance;
     private PersonneStatus personneStatus;
+    private AgeStatus ageStatus;
 }

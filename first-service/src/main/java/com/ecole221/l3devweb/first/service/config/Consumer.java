@@ -1,6 +1,6 @@
 package com.ecole221.l3devweb.first.service.config;
 
-import com.ecole221.microsdervices.course.common.service.event.AgeEvent;
+import com.ecole221.l3dewweb.common.service.events.AgeEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;

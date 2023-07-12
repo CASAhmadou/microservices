@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4357864e-25a9-4492-9f44-88e48efda3c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/SecondServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/entity/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/mapper/PersonneMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/repository/PersonneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/service/PersonneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/config/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/config/PersonneServiceKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/config/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/dto/PersonneDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/dto/PersonneDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/AgeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/AgeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/PersonneEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/events/PersonneEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto$PersonneAgeDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto$PersonneAgeDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto$PersonneDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto$PersonneDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/firstservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/firstservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/controller/PersonneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/controller/PersonneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/entity/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/entity/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/service/PersonneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/service/PersonneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/FirstServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/controller/PersonneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/entity/Personne$PersonneBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/entity/Personne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/mapper/PersonneMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/repository/PersonneRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/service/PersonneService.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +78,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,6 +133,10 @@
       <workItem from="1687827297343" duration="6227000" />
       <workItem from="1687963217550" duration="294000" />
       <workItem from="1687963720537" duration="1692000" />
+      <workItem from="1688544160705" duration="1797000" />
+      <workItem from="1688656501717" duration="12812000" />
+      <workItem from="1689186052953" duration="243000" />
+      <workItem from="1689186325699" duration="237000" />
     </task>
     <servers />
   </component>
@@ -115,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

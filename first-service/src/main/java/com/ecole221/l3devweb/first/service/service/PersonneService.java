@@ -4,32 +4,64 @@ import com.ecole221.l3devweb.first.service.entity.Personne;
 import com.ecole221.l3devweb.first.service.mapper.PersonneMapper;
 import com.ecole221.l3devweb.first.service.repository.PersonneRepository;
 import com.ecole221.l3dewweb.common.service.dto.PersonneDto;
+import com.ecole221.l3dewweb.common.service.events.AgeEvent;
+import com.ecole221.l3dewweb.common.service.events.AgeStatus;
+import com.ecole221.l3dewweb.common.service.events.PersonneEvent;
 import com.ecole221.l3dewweb.common.service.events.PersonneStatus;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PersonneService {
-    private final PersonneRepository personneRepository;
-
+    private static final String personneTopic = "personne-event-topic";
     private final PersonneMapper personneMapper;
+    private final PersonneRepository personneRepository;
+    private final KafkaTemplate<String, PersonneEvent> kafkaTemplate;
 
-    public PersonneService(PersonneRepository personneRepository, PersonneMapper personneMapper) {
-        this.personneRepository = personneRepository;
+    public PersonneService(PersonneMapper personneMapper, PersonneRepository personneRepository, KafkaTemplate<String, PersonneEvent> kafkaTemplate) {
         this.personneMapper = personneMapper;
+        this.personneRepository = personneRepository;
+        this.kafkaTemplate = kafkaTemplate;
     }
 
-    public Personne save(PersonneDto personneDto) throws ParseException {
+    public List<PersonneDto> findAll(){
+        return personneRepository.findAll().
+                stream().map(p-> new PersonneDto(
+                        p.getId(), p.getNomComplet(), new SimpleDateFormat("dd/MM/yyyy").format(p.getDateNaissance()),
+                        p.getPersonneStatus(), p.getAgeStatus()
+                )
+        ).toList();
+    }
+
+    @Transactional
+    public Personne savePersonne(PersonneDto personneDto) throws ParseException {
         personneDto.setPersonneStatus(PersonneStatus.CREATED);
-       return personneRepository.save(personneMapper.personneDtoToPersonneEntity(personneDto));
+        personneDto.setAgeStatus(AgeStatus.INIT);
+        Personne personne = personneRepository.save(personneMapper.personneDtoToPersonneEntity(personneDto));
+        personneDto.setId(personne.getId());
+        PersonneEvent personneEvent =  new PersonneEvent(personneDto, PersonneStatus.CREATED);
+        //send to kafka for update age
+        kafkaTemplate.send(personneTopic, personneEvent);
+        return personne;
     }
 
-    public List<PersonneDto> allPersonnes(){
-        return personneRepository.findAll().stream()
-                .map(personne -> new PersonneDto(personne.getId(), personne.getNomComplet(),
-                        new SimpleDateFormat("dd/MM/yyyy").format(personne.getDateNaissance()), personne.getPersonneStatus())).toList();
+    @Transactional
+    public void updatePersonne(AgeEvent ageEvent) {
+        Optional<Personne> personne = personneRepository.findById(ageEvent.getPersonneAgeDto().getPersonneId());
+        if(!personne.isEmpty()){
+            boolean isAgeSaved = AgeStatus.UPDATED.equals(ageEvent.getAgeStatus());
+            PersonneStatus personneStatus = isAgeSaved?PersonneStatus.COMPLETED:PersonneStatus.ERROR_AGE;
+            personne.get().setPersonneStatus(personneStatus);
+            personne.get().setAgeStatus(AgeStatus.UPDATED);
+            if(!isAgeSaved){
+                personne.get().setAgeStatus(AgeStatus.ERROR_AGE);
+            }
+        }
     }
 }

@@ -1,7 +1,7 @@
 package com.ecole221.l3devweb.first.service.config;
 
-import com.ecole221.microsdervices.course.common.service.event.AgeEvent;
-import com.ecole221.microsdervices.course.first.service.service.PersonneService;
+import com.ecole221.l3devweb.first.service.service.PersonneService;
+import com.ecole221.l3dewweb.common.service.events.AgeEvent;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

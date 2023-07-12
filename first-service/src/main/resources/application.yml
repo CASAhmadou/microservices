@@ -4,7 +4,7 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://dbpostgresql:5432/postgresql/dbmicroservice
+    url: jdbc:postgresql://dbpostgresql:5432/first_bd
     username: postgres
     password: CAS8634Sakho
     # JPA properties

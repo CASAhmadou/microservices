@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.UUID;
 
 @Data
-@AllArgsConstructor
+
 @NoArgsConstructor
 public class PersonneEvent implements Event {
 
@@ -17,8 +17,11 @@ public class PersonneEvent implements Event {
 
     private PersonneStatus personneStatus;
 
+    private Date evenDate = new Date();
+
     private UUID eventId = UUID.randomUUID();
     private Date eventDate = new Date();
+
     @Override
     public UUID getEventId() {
         return eventId;
@@ -27,5 +30,10 @@ public class PersonneEvent implements Event {
     @Override
     public Date getEventDate() {
         return eventDate;
+    }
+
+    public PersonneEvent(PersonneDto personneDto, PersonneStatus personneStatus) {
+        this.personneDto = personneDto;
+        this.personneStatus = personneStatus;
     }
 }
