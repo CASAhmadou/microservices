@@ -21,6 +21,10 @@ public class AgeEvent implements Event{
 
     private Date eventDate = new Date();
 
+    public AgeEvent(PersonneAgeDto ageDTO, AgeStatus updated) {
+
+    }
+
     @Override
     public UUID getEventId() {
         return eventId;

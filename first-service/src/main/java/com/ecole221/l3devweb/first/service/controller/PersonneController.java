@@ -24,11 +24,11 @@ public class PersonneController {
     @ResponseBody
     @GetMapping("/personnes/all")
     public ResponseEntity getAll(){
-        return new ResponseEntity(personneService.allPersonnes(), HttpStatus.OK);
+        return new ResponseEntity(personneService.findAll(), HttpStatus.OK);
     }
 
     public ResponseEntity<Object> save(@RequestBody PersonneDto personneDto) throws ParseException {
-        Personne personne = personneService.save(personneDto);
+        Personne personne = personneService.savePersonne(personneDto);
 
         URI location = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}").buildAndExpand(personne.getId()).toUri();

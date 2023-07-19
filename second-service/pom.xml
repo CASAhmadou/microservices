@@ -40,6 +40,14 @@
             <groupId>kafka.micro</groupId>
             <artifactId>common-service</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>kafka.micro</groupId>
+            <artifactId>first-service</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

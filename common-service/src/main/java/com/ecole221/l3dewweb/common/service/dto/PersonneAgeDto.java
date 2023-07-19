@@ -18,4 +18,7 @@ public class PersonneAgeDto {
     private long age;
     private AgeStatus ageStatus;
 
+    public PersonneAgeDto(UUID id, long age) {
+
+    }
 }
