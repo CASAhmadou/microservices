@@ -5,10 +5,7 @@ import com.ecole221.l3devweb.first.service.service.PersonneService;
 import com.ecole221.l3dewweb.common.service.dto.PersonneDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.text.ParseException;
@@ -27,6 +24,8 @@ public class PersonneController {
         return new ResponseEntity(personneService.findAll(), HttpStatus.OK);
     }
 
+    @ResponseBody
+    @PostMapping("/personne")
     public ResponseEntity<Object> save(@RequestBody PersonneDto personneDto) throws ParseException {
         Personne personne = personneService.savePersonne(personneDto);
 

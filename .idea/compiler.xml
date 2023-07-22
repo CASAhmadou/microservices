@@ -7,23 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="secondservice" />
         <module name="firstservice" />
+        <module name="secondservice" />
+        <module name="apigateway" />
         <module name="commonservice" />
+        <module name="namingservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apigateway" target="17" />
+      <module name="apigetaway" target="1.5" />
       <module name="commonservice" target="17" />
       <module name="firstservice" target="17" />
       <module name="microservices" target="17" />
+      <module name="namingservice" target="17" />
       <module name="secondservice" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apigateway" options="-parameters" />
       <module name="commonservice" options="-parameters" />
       <module name="firstservice" options="-parameters" />
       <module name="microservices" options="-parameters" />
+      <module name="namingservice" options="-parameters" />
       <module name="secondservice" options="-parameters" />
     </option>
   </component>

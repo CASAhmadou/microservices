@@ -26,12 +26,16 @@ public class AgeServiceKafka {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    @KafkaListener(topics = "personne-event-topic", groupId = "default", containerFactory
-            = "PersonneEventListner")
+    @KafkaListener(topics = "personne-event-topic", groupId = "default", containerFactory = "PersonneEventListner")
     public void consumeMessage(PersonneEvent personneEvent) throws JsonProcessingException, ParseException {
-        log.info("message consumed {}", personneEvent.getEventId());
-        AgeEvent ageEvent = ageService.saveAge(personneEvent);
-        kafkaTemplate.send(ageTopic, ageEvent);
+        // log.info("message consumed {}", personneEvent.getEventId());
+        try {
+            AgeEvent ageEvent = ageService.saveAge(personneEvent);
+            kafkaTemplate.send(ageTopic, ageEvent);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
 
 

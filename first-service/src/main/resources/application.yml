@@ -1,10 +1,13 @@
+server:
+  port: 8081
+
 spring:
   application:
-    name: First-application
+    name: first-service
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://dbpostgresql:5432/first_bd
+    url: jdbc:postgresql://dbpostgresql:5432/first_service_bd
     username: postgres
     password: CAS8634Sakho
     # JPA properties
@@ -16,5 +19,11 @@ spring:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       open-in-view: false
       generate-ddl: true
-  server:
-    port: 8081
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhoste:8761/eureka/
+
+topic:
+  name: personne-event-topic

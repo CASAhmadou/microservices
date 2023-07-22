@@ -16,9 +16,5 @@ public class PersonneAgeDto {
 
     private UUID personneId;
     private long age;
-    private AgeStatus ageStatus;
 
-    public PersonneAgeDto(UUID id, long age) {
-
-    }
 }
