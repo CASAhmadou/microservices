@@ -2,176 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4357864e-25a9-4492-9f44-88e48efda3c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_15_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_jersey3_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_jersey3_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_x_stream_mxparser_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_94_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_spring_bridge_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_connectors_jersey_apache_connector_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_29_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_4_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bootstrap_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_4_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_6_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_6_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/apigateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ecole221/l3devweb/api/gateway/ApiGateWayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ecole221/l3devweb/api/gateway/ApiGateWayConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naming-service/namingservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naming-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naming-service/src/main/java/com/ecole221/l3devweb/naming/server/NamingServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naming-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_3_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_3_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/commonservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/commonservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto$PersonneAgeDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto$PersonneAgeDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneAgeDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto$PersonneDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto$PersonneDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/dto/PersonneDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/AgeStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/ecole221/l3dewweb/common/service/events/PersonneStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/common-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/common-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/firstservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/firstservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/controller/PersonneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/java/com/ecole221/l3devweb/first/service/controller/PersonneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/FirstServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/FirstServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/config/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/config/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/config/PersonneServiceKafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/config/PersonneServiceKafka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/config/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/config/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/controller/PersonneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/controller/PersonneController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/entity/Personne$PersonneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/entity/Personne$PersonneBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/entity/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/entity/Personne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/mapper/PersonneMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/mapper/PersonneMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/repository/PersonneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/repository/PersonneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/service/PersonneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/classes/com/ecole221/l3devweb/first/service/service/PersonneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/target/first-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/target/first-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/secondservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/secondservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/config/AgeServiceKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/config/AgeServiceKafka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/l3devweb/second/service/repository/PersonneRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/SecondServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/SecondServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/config/AgeServiceKafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/config/AgeServiceKafka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/config/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/config/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/config/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/config/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/controller/PersonneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/controller/PersonneController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/entity/AgeEntity$AgeEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/entity/AgeEntity$AgeEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/entity/AgeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/entity/AgeEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/mapper/AgeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/mapper/AgeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/repository/AgeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/repository/AgeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/repository/PersonneRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/service/AgeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/service/AgeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/service/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/classes/com/ecole221/l3devweb/second/service/service/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-service/target/second-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/second-service/target/second-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/ecole221/l3devweb/api/gateway/ApiGateWayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ecole221/l3devweb/api/gateway/ApiGateWayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/ecole221/l3devweb/api/gateway/ApiGateWayConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ecole221/l3devweb/api/gateway/ApiGateWayConfiguration.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,17 +137,7 @@
       <serviceView>
         <option name="contentProportion" value="0.16205962" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a5b639e6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a5b639e6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9724adb9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -341,7 +164,8 @@
       <workItem from="1689238375159" duration="1860000" />
       <workItem from="1689421380884" duration="13000" />
       <workItem from="1689792353014" duration="2974000" />
-      <workItem from="1689897978050" duration="16492000" />
+      <workItem from="1689897978050" duration="16578000" />
+      <workItem from="1690633657960" duration="64000" />
     </task>
     <servers />
   </component>
